@@ -1,6 +1,6 @@
 # Foundation Rails Helper [![Build Status](https://secure.travis-ci.org/sgruhier/foundation_rails_helper.png)](http://travis-ci.org/sgruhier/foundation_rails_helper)
 
-Gem for Rails 4.1+ applications that use the excellent [Zurb Foundation framework](https://github.com/zurb/foundation-rails).
+Gem for Rails 5.0+ applications that use the excellent [Zurb Foundation framework](https://github.com/zurb/foundation-rails).
 
 Includes:
 
@@ -14,7 +14,7 @@ Add this line to your application's Gemfile:
 
 ```ruby
 gem 'foundation-rails', '~> 6.0' # required
-gem 'foundation_rails_helper', '~> 3.0'
+gem 'foundation_rails_helper', '~> 4.0'
 ```
 
 And then execute:
@@ -25,10 +25,10 @@ $ bundle
 
 ## Compatibility
 
-* Only Rails 4.1/4.2/5/6, and Foundation 6 are fully supported
+* Only Rails 5/6/7, and Foundation 6 are fully supported
 * Some features may work with Foundation 5 and older, but results may vary, and markup which exists only for those versions will be gradually removed
 * Legacy branches exist for Rails 3, 4.0, and Foundation 5 (see the rails3, rails4.0, and foundation-5 branches). These are not actively supported, and fixes are not retroactively applied, but pull requests are welcome.
-* We test against ruby versions 2.1 and up. This gem may still work fine on 1.9.3, but your mileage may vary
+* We test against ruby versions 2.5 and up.
 
 
 ## Screenshots

@@ -3,38 +3,24 @@ branches:
   only:
     - master
 rvm:
-  - 2.3.8
-  - 2.4.10
-  - 2.5.8
-  - 2.6.6
-  - 2.7.2
+  - 2.5.9
+  - 2.6.9
+  - 2.7.5
 env:
-  - "RAILS_VERSION=4.2.0"
   - "RAILS_VERSION=5.0.0"
   - "RAILS_VERSION=5.2.0"
   - "RAILS_VERSION=6.0.0"
   - "RAILS_VERSION=6.1.0"
+  - "RAILS_VERSION=7.0.0"
 jobs:
   exclude:
-    - rvm: 2.4.10
-      env: "RAILS_VERSION=6.1.0"
-    - rvm: 2.3.8
-      env: "RAILS_VERSION=6.1.0"
-    - rvm: 2.7.2
+    - rvm: 2.7.5
       env: "RAILS_VERSION=6.0.0"
-    - rvm: 2.4.10
-      env: "RAILS_VERSION=6.0.0"
-    - rvm: 2.3.8
-      env: "RAILS_VERSION=6.0.0"
-    - rvm: 2.7.2
+    - rvm: 2.7.5
       env: "RAILS_VERSION=5.2.0"
-    - rvm: 2.7.2
+    - rvm: 2.7.5
       env: "RAILS_VERSION=5.0.0"
-    - rvm: 2.7.2
-      env: "RAILS_VERSION=4.2.0"
-    - rvm: 2.6.6
-      env: "RAILS_VERSION=4.2.0"
-    - rvm: 2.5.8
-      env: "RAILS_VERSION=4.2.0"
-    - rvm: 2.4.10
-      env: "RAILS_VERSION=4.2.0"
+    - rvm: 2.5.9
+      env: "RAILS_VERSION=7.0.0"
+    - rvm: 2.6.9
+      env: "RAILS_VERSION=7.0.0"

@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 require 'action_view/helpers'
+require 'ostruct'
 
 module FoundationRailsHelper
   class FormBuilder < ActionView::Helpers::FormBuilder
